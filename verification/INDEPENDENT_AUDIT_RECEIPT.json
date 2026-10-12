@@ -1,0 +1,259 @@
+{
+  "status": "PASS_EXACT_MAIN_ENDPOINTS_AND_REMOTE_PACKAGE",
+  "audit_date_utc": "2026-10-12",
+  "repository": "Juemian-Deng/adaptive-orthogonal-rigidity",
+  "repository_id": 1415594567,
+  "private_at_audit": true,
+  "audited_source_commit": "03130bb08398ae4e08c3c8e6544086689b2588b2",
+  "audited_git_tree": "0375064cb9b2bf61bfaa58fd3fabede36551fd43",
+  "source_manifest_sha256": "afed2e414a8c8bc755a86ee5e5d30953a76173b0b46e887beb771173fe9b8dc7",
+  "mathematical_source_config_files": 166,
+  "lean_modules": 163,
+  "remote_files_checked": 183,
+  "remote_total_bytes_checked": 880129,
+  "method": "One complete independent fresh project compilation; immutable remote full-file byte verification; original remote contracts and proof closures revalidated using only the same hash-bound auditor objects. No second full fresh compilation claimed.",
+  "main_endpoints": {
+    "F1_finite_movement": "PROVED_AND_INDEPENDENTLY_VERIFIED",
+    "A1_asymptotic_movement": "PROVED_AND_INDEPENDENTLY_VERIFIED",
+    "F2_finite_block": "PROVED_AND_INDEPENDENTLY_VERIFIED",
+    "A2_asymptotic_block": "PROVED_AND_INDEPENDENTLY_VERIFIED",
+    "sufficient_block_range": "PROVED_AND_INDEPENDENTLY_VERIFIED"
+  },
+  "lean": {
+    "version": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+    "linux_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550"
+  },
+  "locked_dependencies": [
+    {
+      "name": "mathlib",
+      "commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "plausible",
+      "commit": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "commit": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "importGraph",
+      "commit": "e928b72544873815af278d38681b31c0293588e3",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "commit": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "aesop",
+      "commit": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "Qq",
+      "commit": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "batteries",
+      "commit": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "tracked_source_clean": true
+    },
+    {
+      "name": "Cli",
+      "commit": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+      "tracked_source_clean": true
+    }
+  ],
+  "fresh_build": {
+    "project_modules": 163,
+    "producer_project_objects_used": false,
+    "official_pinned_dependency_caches_shared": true,
+    "implementation_linter_warnings": 22
+  },
+  "complete_proof_closure": {
+    "local_declarations": 1839,
+    "theorem_roots": 1485,
+    "transitive_constants": 45507,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "forbidden_axioms_or_unsafe_partial_proof_dependencies_found": false,
+    "runtime_note": "The existing fieldGraphMatrix runtime helper is outside all theorem proof closures.",
+    "dependency_graph_sha256": "d734757248b18238d7f4224dfe43a3d3d6e3bce02ceb63f3aa92996140c26cc7",
+    "declaration_registry_sha256": "29a8374b0640f8606d41ee8b6aff41a45536fd4191320961b44a6e335775dd97"
+  },
+  "explicit_named_axiom_reports": 736,
+  "model_regression_proofs": 2,
+  "required_contracts": {
+    "F1EndpointContract": {
+      "status": "PASS",
+      "original_fragment_sha256": "7037939c0c31d3fb21755e99fc52e37681bbb590363d5ad637651fb457a9d8dd",
+      "axiom_reports": 2
+    },
+    "A1EndpointContract": {
+      "status": "PASS",
+      "original_fragment_sha256": "87af96c3bc5ce104e6cb67ed974a81dcd5feccc84c53d6ae5d7465e8f8804e35",
+      "axiom_reports": 2
+    },
+    "F2EndpointContract": {
+      "status": "PASS",
+      "original_fragment_sha256": "afb4fa69b4ac02839a6424afb481867e19bf2e2580a73ce4dd2d59f8df7530e9",
+      "axiom_reports": 2
+    },
+    "A2EndpointContracts": {
+      "status": "PASS",
+      "original_fragment_sha256": "6004577a97f84cfaf724935d2efaf93743d3bfe699a09f33db09816bc365882b",
+      "axiom_reports": 4
+    },
+    "RegularDescriptorContract": {
+      "status": "PASS",
+      "original_fragment_sha256": "e843892a99f88e640b2fbc75626f29751c52f1a59dd1756abfc41315cc143816",
+      "axiom_reports": 2
+    },
+    "RemoteTargetStatements": {
+      "status": "PASS",
+      "original_fragment_sha256": "c57d184f2553989a65cc2abff80954f9ae2bb0b12007349b4fd9974d9c3abe81",
+      "axiom_reports": 0
+    },
+    "PublicEndpointAxioms": {
+      "status": "PASS",
+      "original_fragment_sha256": "5ee375a73c073f5cc6f3441d5967956dd52667f5ac4bfce4141f81a0b9cacb58",
+      "axiom_reports": 5
+    }
+  },
+  "endpoint_closures": {
+    "F1": {
+      "constants": 44037,
+      "graph_sha256": "7456f0bbd221c1d6a68d49468aba0bf6b33ca754e5108ebbefaa691d5dd4f2e0"
+    },
+    "A1": {
+      "constants": 44278,
+      "graph_sha256": "a3101457b40a5f8de710f2cbc3d89888a83ff23ab3c94b6e70fbf3db34129f4a"
+    },
+    "F2": {
+      "constants": 32563,
+      "graph_sha256": "6895067f8c44eb5af806f09d3df76fda2a01ba89571ab61af4b2450d0b59a662"
+    },
+    "A2": {
+      "constants": 32709,
+      "graph_sha256": "f64dcb056e3f10e68fc5605520c6baa3a1e441d9944fc97db75bfe53564ed669"
+    }
+  },
+  "batch_instrumentation": {
+    "method": "Unchanged contract bodies, imports collected at top, isolated namespaces, no added hypotheses or variables. Original remote target source and public axiom-check source hashes also checked.",
+    "fresh_snapshot_batch_source_sha256": "e49c6bb8f19312b5c67d5054e49e1e525e9609696cdbcaa06c699e30c85576f2",
+    "remote_revalidation_batch_source_sha256": "cf1464387ab2df1cb93aa631330c6e527d4b94152086a8ef5c15f3ee5a39b596",
+    "fresh_snapshot_driver_sha256": "e535f183f7958e06f5eb18ea9e7b93f859b2801ef274b155dfa9818116eede3f",
+    "remote_revalidation_driver_sha256": "cd739f5b44ef996dcad92d97744e5ff0531342eb1f11cd0d37764c81b5f9b01b",
+    "all_remote_closure_graphs_identical_to_fresh_build": true
+  },
+  "inherited_intermediate_evidence": {
+    "origin_snapshot": "checkpoint_032",
+    "origin_manifest_sha256": "9df8f2f0b722ce50e5c46416b546c6f96c5f4f8b0219b08c3dd289e19da0c50d",
+    "unchanged_prior_source_config_files": 152,
+    "checks": {
+      "CorankEndpointContract": {
+        "source_sha256": "1975eede2c43db95fc50bccbfd460c92fe641fd29ddeded8998a75103171a0dd",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "CorankClosureAudit": {
+        "source_sha256": "a9dbaad06eb817b6be73087af131ba1f45c55adce71c57f5fb974711c427bde3",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "PolynomialEndpointContract": {
+        "source_sha256": "568fc1351e24eaa202619271871f509d55f967fa159855fe897af7ce642b35fe",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "PolynomialClosureAudit": {
+        "source_sha256": "595786f0e7df91f068af8ffe0f9737623133a2edbcd1600b55ff4302836ae8b5",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "KrylovEndpointContract": {
+        "source_sha256": "8f8ca45d4659215dc8062825f4f821cbc6f683cd1ce33f4aaab3e609a9b55c16",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "KrylovClosureAudit": {
+        "source_sha256": "656d1eca3585ab195672e147ea217dbf9aa254c51811702b94a36e09bdaa931b",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "UniformRealKrylovContract": {
+        "source_sha256": "e22ab1de3b3b85993fb0aa3a05f022d00164ac83299cd4d518739c53a7f66d20",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "PackingMatrixContract": {
+        "source_sha256": "501278a16cdc024c9c9b8c7f6d9814bae283a3af8b80b9faf960395c81137bb9",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "SameTargetCaptureContract": {
+        "source_sha256": "cac49eb27e6ac4bab9dd4ef1b4ea0b14d2d0c6c94060833c07282a10b757088f",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "PackedProbabilityContracts": {
+        "source_sha256": "cb0157815e4622141a45d9bc1b8f8e85eb2e73f88f830021b316d20c3c7f49ba",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "LocalizationContracts": {
+        "source_sha256": "55cc9b0f4baf9e16bb5d0f51c3a9ebb3cb1e9d8cf6e2ac6c25c9c4b0680003de",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "CoverEndpointContracts": {
+        "source_sha256": "5cb507c8bae915f1faee417037ca244a03eddb4dda86f01c77f530821131e066",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "RationalDescentContract": {
+        "source_sha256": "2bc7f0f1bf060c9d9a040165a6b1f83eafb1b2efa44bf594920395a74e6a2aa9",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "UniformDescriptorContract": {
+        "source_sha256": "edb0c31942c72d79c3a54301ad27dc8f52b5dae6eb4ddbbb51ddd9bbbd7d23c2",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "PencilKernelContract": {
+        "source_sha256": "c87825c711f1047f8b5ef19f1b8407a52ed066b0773ceb9c2cfbc4a4ea7612f6",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "DescriptorReductionContract": {
+        "source_sha256": "c562bcf0a8e8378622cfe22fde45fc32bf15b4491c03a29a25e641abdb74eb8e",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "IntegralLatticeContract": {
+        "source_sha256": "f1dd83b4143eca14ff23d3f74ed348182c9ff550bcce293436a9a6af58ecf135",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      },
+      "MovementNumericsContract": {
+        "source_sha256": "d64ea27e2b5270f9e91b544fd79db7085ba6db1fc73f7622e908378878ad7780",
+        "status": "PASS_INHERITED_UNCHANGED_SOURCE_AND_DEPENDENCIES"
+      }
+    },
+    "limit": "No new or main endpoint contract was skipped; all current project modules were fresh-compiled."
+  },
+  "public_reproduction_script": {
+    "full_end_to_end_execution_by_independent_auditor": false,
+    "static_and_shell_syntax_review": "PASS",
+    "relative_paths_dependency_lock_targets_failure_propagation_review": "PASS",
+    "source_identity_check_execution": "PASS",
+    "dependency_identity_check_execution": "PASS",
+    "lake_env_lean_version_execution": "PASS",
+    "hidden_development_workspace_requirement_found": false
+  },
+  "secret_scan": {
+    "status": "NO_RECOGNIZED_SECRET_PATTERNS_FOUND",
+    "files_scanned": 183,
+    "limitation": "Pattern-based screening is not a guarantee against all possible secret encodings."
+  },
+  "literal_coverage_limits": [
+    "Arbitrary-coordinate-distribution affine-fiber generality is not claimed; the original heterogeneous Bernoulli case is proved.",
+    "The support lower bound is proved for the minimum-relative-rank extraction needed by the exact cover theorem, not every ternary matrix.",
+    "General-field one-step and original-graph global non-strict budgeted descent are proved; standalone general-field global strict-budget iteration is not claimed.",
+    "The reflection-product corollary is not included in checkpoint033."
+  ],
+  "peer_review": "Machine checking and independent AI-assisted semantic audit; no independent human peer review claimed."
+}

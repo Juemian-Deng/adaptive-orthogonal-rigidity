@@ -2,9 +2,9 @@
 
 ## Main endpoints
 
-All entries below are actual locally compiled theorems. Independent acceptance
-of the complete checkpoint 033 is pending; prior F2/A2 acceptance does not by
-itself certify the newly completed F1/A1 chain.
+All entries below are actual theorems accepted by the independent checkpoint
+033 audit, including the completed F1/A1 chain. The exact evidence and
+reproduction limits are in [the independent audit summary](INDEPENDENT_AUDIT.md).
 
 | Result | Source file | Exact Lean endpoint |
 | --- | --- | --- |

@@ -6,10 +6,11 @@ graphs under adaptive real orthogonal transformations* (12 October 2026).
 ## Verification status
 
 All four exact finite and asymptotic main endpoints, plus the sufficient block
-range, compile as actual Lean proofs in checkpoint 033. The complete checkpoint
-is undergoing independent clean-build, semantic, and proof-dependency audit.
-It is not yet certified for final delivery. Earlier independent checkpoints
-already accepted the bounded-component branch and most movement ingredients.
+range, pass independent audit in checkpoint 033. The audit includes a fresh
+compilation of all 163 project modules, expanded original-model contracts,
+recursive proof-dependency checks, and verification of the actual remote source
+bytes. See [the independent audit summary](docs/INDEPENDENT_AUDIT.md) for the
+precise evidence, trust boundary, and limitations.
 
 | Manuscript result | Lean declaration |
 | --- | --- |
@@ -42,8 +43,11 @@ corollary. No independent human peer review is claimed.
 
 After setting up the pinned official toolchain and dependencies, run
 `bash scripts/reproduce.sh`. See [clean reproduction instructions](docs/REPRODUCING.md).
-The local five-endpoint axiom check reports only `propext`, `Classical.choice`,
-and `Quot.sound`; final independent closure results will be recorded separately.
+All independently checked theorem proof closures use only `propext`,
+`Classical.choice`, and `Quot.sound`. The complete public reproduction script
+has not been executed end-to-end by the independent auditor; its static review,
+identity checks, and separately executed proof checks are distinguished in the
+[audit summary](docs/INDEPENDENT_AUDIT.md).
 
-This source is intended for the authorized private repository. A successful
-local build alone is not the independent acceptance required for final delivery.
+The repository was private when audited. Acceptance applies to the exact source
+manifest above and the scope recorded in the independent audit summary.

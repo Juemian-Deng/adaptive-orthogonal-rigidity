@@ -40,10 +40,19 @@ contracts, verifies the source/toolchain/package identities, and records linter
 warnings. A cache hit in an incremental local build is not described as a clean
 recompilation.
 
-At checkpoint 033 submission, that final independent audit is pending. Its
-signed-off receipt and semantic coverage report must be included before a
-release is described as accepted. Reproduction does not require trusting a
-claim in this README: the source contracts and proof checks are executable.
+Checkpoint 033 has passed the independent audit described in
+[the audit summary](INDEPENDENT_AUDIT.md), with a machine-readable record in
+`verification/INDEPENDENT_AUDIT_RECEIPT.json`. One complete fresh project build
+was bound to the immutable remote source by byte-for-byte verification. Remote
+contracts and closure checks reused only those hash-bound auditor-built objects.
+
+The independent auditor reviewed `scripts/reproduce.sh` statically and checked
+its shell syntax, paths, dependency lock, targets, and failure propagation, and
+executed its source/dependency identity checks separately. The full public
+script was not run end-to-end by the auditor: its `lake build` would duplicate
+the already completed fresh build. This is not a claim that the complete public
+reproduction command has itself been end-to-end validated. The exact source
+contracts and proof checks remain executable by readers.
 
 ## Existing project-local official toolchain
 

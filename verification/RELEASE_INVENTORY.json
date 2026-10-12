@@ -8,6 +8,11 @@
       "bytes": 72
     },
     {
+      "path": "AdaptiveOrthogonalRigidity.lean",
+      "sha256": "d0ccce80edf1af55b386cd809a576fe28f411f27f19778af92457b004b58701b",
+      "bytes": 7369
+    },
+    {
       "path": "AdaptiveOrthogonalRigidity/AffineCubeAtom.lean",
       "sha256": "1194a9e5595b909edc0ab22fab531edb449576a6de32730806222d09e71e48b1",
       "bytes": 4152
@@ -818,24 +823,24 @@
       "bytes": 4544
     },
     {
-      "path": "AdaptiveOrthogonalRigidity.lean",
-      "sha256": "d0ccce80edf1af55b386cd809a576fe28f411f27f19778af92457b004b58701b",
-      "bytes": 7369
+      "path": "README.md",
+      "sha256": "26159840f667c9764166989378cca89f5d595b6f1e9df2738343e51681c71fb3",
+      "bytes": 2785
     },
     {
-      "path": "README.md",
-      "sha256": "0a6650d3f96629a5c8e7c1eef24b79f2fd6c29b80fb1c265e6d0007c0263c34b",
-      "bytes": 2551
+      "path": "docs/INDEPENDENT_AUDIT.md",
+      "sha256": "6e421eb5b05841d947912ca75812cc7c93c2924f0c7c261ec2e7def924303ad9",
+      "bytes": 4652
     },
     {
       "path": "docs/PROOF_COVERAGE.md",
-      "sha256": "7f3622087afe3a4f9fc0d93db2e0505f311479d8276ecfc9b28106723e2c881c",
-      "bytes": 5044
+      "sha256": "8604da4df4cf74fab38b01c0a0b13f79f17c31f7476a9f18b7ba53f7d5a89756",
+      "bytes": 5069
     },
     {
       "path": "docs/REPRODUCING.md",
-      "sha256": "2303a30f355b122e486a579e764cd5d96664c53884a95f6ae6031a54d336316a",
-      "bytes": 3025
+      "sha256": "a559cfa3dc9c0dcded6a7ba4ba450d0bffccc5c20ea52ce1feb332c3a05b89b0",
+      "bytes": 3630
     },
     {
       "path": "lake-manifest.json",
@@ -873,9 +878,14 @@
       "bytes": 352
     },
     {
+      "path": "verification/INDEPENDENT_AUDIT_RECEIPT.json",
+      "sha256": "7b55f581db11d788432ac681fe5fd40bb63bb631089c7df4f7093ea4ad88df77",
+      "bytes": 11569
+    },
+    {
       "path": "verification/STATUS.json",
-      "sha256": "01628db1dd9972ffcad0ba0e9e16b4002996bd29e51df32b46a060b34b6873e1",
-      "bytes": 945
+      "sha256": "1bb34da0b50dacc5464b03f553c9bb704e0282545fe07accff84eb2dd9d5c36f",
+      "bytes": 1652
     },
     {
       "path": "verification/local-evidence/build-240.log",
