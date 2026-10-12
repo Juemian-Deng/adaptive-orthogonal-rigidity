@@ -1,0 +1,6 @@
+import AdaptiveOrthogonalRigidity
+#print axioms AdaptiveOrthogonalRigidity.finite_movement_bound
+#print axioms AdaptiveOrthogonalRigidity.asymptotic_movement_bound
+#print axioms AdaptiveOrthogonalRigidity.finite_block_bound
+#print axioms AdaptiveOrthogonalRigidity.asymptotic_block_bound
+#print axioms AdaptiveOrthogonalRigidity.sufficient_block_range

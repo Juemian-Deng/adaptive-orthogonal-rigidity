@@ -1,0 +1,62 @@
+{
+  "purpose": "Manuscript TeX source hash record; not a proof verification receipt",
+  "manuscript": "Quantitative rigidity of random graphs under adaptive real orthogonal transformations",
+  "source_date": "2026-10-12",
+  "files": [
+    {
+      "path": "manuscripts/orthogonal_rigidity_v1_20261012/main.tex",
+      "sha256": "e98dac926b9014dd6bdf8742660eee4b0ff789f8a81c5ced1fd3d7c26440849d",
+      "bytes": 3390
+    },
+    {
+      "path": "manuscripts/orthogonal_rigidity_v1_20261012/references.tex",
+      "sha256": "8fb5737ed8d929b614307c164cc0d15c026248fdd18e266d9f6fbe65cc6b7613",
+      "bytes": 1815
+    },
+    {
+      "path": "manuscripts/orthogonal_rigidity_v1_20261012/sections/algebra.tex",
+      "sha256": "bcf47c2d591a9843271b8299093164fc6545f09cd46ec40765522889432c5506",
+      "bytes": 6717
+    },
+    {
+      "path": "manuscripts/orthogonal_rigidity_v1_20261012/sections/assembly.tex",
+      "sha256": "0a7a56825397182bd7b46f88a349b699b198977aefc9412b40a6d1ac685eb2d3",
+      "bytes": 7002
+    },
+    {
+      "path": "manuscripts/orthogonal_rigidity_v1_20261012/sections/blocks.tex",
+      "sha256": "7bdbb5139ad92a7794fd13c239552c5eaacb3c2fae883c2c5ac9732041ffcac8",
+      "bytes": 10341
+    },
+    {
+      "path": "manuscripts/orthogonal_rigidity_v1_20261012/sections/cover.tex",
+      "sha256": "cae178af7ec693c482cb69f814451f14529e43cdeb1231fcb6c4f424ef270231",
+      "bytes": 5899
+    },
+    {
+      "path": "manuscripts/orthogonal_rigidity_v1_20261012/sections/descent.tex",
+      "sha256": "2204f4535216ace64b4e849363b5ff6d37ce264427a5d05ef0deba9a896411da",
+      "bytes": 8980
+    },
+    {
+      "path": "manuscripts/orthogonal_rigidity_v1_20261012/sections/descriptor.tex",
+      "sha256": "f1e0a1bf5d2356e9ed01767d2164ef867fe5ebe73adb3bee61f454097ea74ba2",
+      "bytes": 6754
+    },
+    {
+      "path": "manuscripts/orthogonal_rigidity_v1_20261012/sections/discussion.tex",
+      "sha256": "41add6473c849db3e09d21493bae69b93818784731b9a85044221dc9c57abd0b",
+      "bytes": 3242
+    },
+    {
+      "path": "manuscripts/orthogonal_rigidity_v1_20261012/sections/introduction.tex",
+      "sha256": "6c3599f4499cc963a161e37285116a32593fd910a2aba779b07e925241eb555e",
+      "bytes": 7965
+    },
+    {
+      "path": "manuscripts/orthogonal_rigidity_v1_20261012/sections/krylov.tex",
+      "sha256": "0d6debc3b22ccff90885cdf9820037736c6e889ec88753b6f33992f08cc5b5ec",
+      "bytes": 6898
+    }
+  ]
+}

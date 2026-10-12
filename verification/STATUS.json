@@ -1,0 +1,16 @@
+{
+  "checkpoint": "033",
+  "source_manifest_sha256": "afed2e414a8c8bc755a86ee5e5d30953a76173b0b46e887beb771173fe9b8dc7",
+  "mathematical_source_count": 166,
+  "lean_module_count": 163,
+  "lean_source_lines": 16040,
+  "local_build": "PASS",
+  "five_exact_endpoint_contracts": "PASS",
+  "five_endpoint_axioms": "propext, Classical.choice, Quot.sound only",
+  "independent_checkpoint033_audit": "PENDING",
+  "publication_scope": "Authorized private repository; no claim of completed independent acceptance.",
+  "lean_version": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+  "linux_lean_binary_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "limitations": "See docs/PROOF_COVERAGE.md; no claim that all generally stated auxiliary lemmas are formalized at their full literal generality."
+}

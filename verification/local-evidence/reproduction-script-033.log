@@ -1,0 +1,151 @@
+Verified checkpoint 033: 166 checked files
+Manifest SHA-256: afed2e414a8c8bc755a86ee5e5d30953a76173b0b46e887beb771173fe9b8dc7
+This is source identity verification, not proof or semantic verification.
+Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)
+⚠ [3014/3156] Replayed AdaptiveOrthogonalRigidity.BlockBoundArithmetic
+warning: AdaptiveOrthogonalRigidity/BlockBoundArithmetic.lean:11:56: Variable name `hq` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hq
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3040/3156] Replayed AdaptiveOrthogonalRigidity.SparseDeterminingBases
+warning: AdaptiveOrthogonalRigidity/SparseDeterminingBases.lean:111:49: This simp argument is unused:
+  Nat.mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [C, Finset.sum_product, Finset.mul_sum]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AdaptiveOrthogonalRigidity/SparseDeterminingBases.lean:150:8: automatically included section variable(s) unused in theorem `AdaptiveOrthogonalRigidity.principalSubmatrix_univ_rank`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: AdaptiveOrthogonalRigidity/SparseDeterminingBases.lean:207:0: automatically included section variable(s) unused in theorem `AdaptiveOrthogonalRigidity.rowSetRank_eq_submatrix_rank`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: AdaptiveOrthogonalRigidity/SparseDeterminingBases.lean:242:0: automatically included section variable(s) unused in theorem `AdaptiveOrthogonalRigidity.RelativeRankMinimal.transpose`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: AdaptiveOrthogonalRigidity/SparseDeterminingBases.lean:249:0: automatically included section variable(s) unused in theorem `AdaptiveOrthogonalRigidity.matrixSupportSize_transpose`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: AdaptiveOrthogonalRigidity/SparseDeterminingBases.lean:258:0: automatically included section variable(s) unused in theorem `AdaptiveOrthogonalRigidity.ActualRowBasis.touches_column`:
+  [Fintype ι]
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: AdaptiveOrthogonalRigidity/SparseDeterminingBases.lean:318:0: automatically included section variable(s) unused in theorem `AdaptiveOrthogonalRigidity.row_span_restriction_injective`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: AdaptiveOrthogonalRigidity/SparseDeterminingBases.lean:365:0: automatically included section variable(s) unused in theorem `AdaptiveOrthogonalRigidity.matrixSupportSize_eq_card`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3095/3321] Replayed AdaptiveOrthogonalRigidity.PartitionCounting
+warning: AdaptiveOrthogonalRigidity/PartitionCounting.lean:67:56: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3119/3321] Replayed AdaptiveOrthogonalRigidity.MarkedCorankProbability
+warning: AdaptiveOrthogonalRigidity/MarkedCorankProbability.lean:50:12: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3598/3653] Replayed AdaptiveOrthogonalRigidity.LocalizedCrossBlock
+warning: AdaptiveOrthogonalRigidity/LocalizedCrossBlock.lean:59:10: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hn, Ne.symm hn] at hh
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AdaptiveOrthogonalRigidity/LocalizedCrossBlock.lean:59:31: This simp argument is unused:
+  Ne.symm hn
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Pi.single_apply, hn] at hh
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3601/3653] Replayed AdaptiveOrthogonalRigidity.CompatibleCoverCounting
+warning: AdaptiveOrthogonalRigidity/CompatibleCoverCounting.lean:119:18: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AdaptiveOrthogonalRigidity/CompatibleCoverCounting.lean:120:32: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Fintype.sum_bool]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AdaptiveOrthogonalRigidity/CompatibleCoverCounting.lean:120:35: This simp argument is unused:
+  Fintype.sum_bool
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: AdaptiveOrthogonalRigidity/CompatibleCoverCounting.lean:279:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3603/3653] Replayed AdaptiveOrthogonalRigidity.CompatibleCoverExtraction
+warning: AdaptiveOrthogonalRigidity/CompatibleCoverExtraction.lean:84:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: AdaptiveOrthogonalRigidity/CompatibleCoverExtraction.lean:91:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: AdaptiveOrthogonalRigidity/CompatibleCoverExtraction.lean:92:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (3653 jobs).
+'AdaptiveOrthogonalRigidity.finite_movement_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AdaptiveOrthogonalRigidity.asymptotic_movement_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AdaptiveOrthogonalRigidity.finite_block_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AdaptiveOrthogonalRigidity.asymptotic_block_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AdaptiveOrthogonalRigidity.sufficient_block_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+All five main endpoint axiom reports use only the three standard axioms.
+Reproduction logs: .verification/reproduce-20261012T181028Z-5

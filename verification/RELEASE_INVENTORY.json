@@ -1,0 +1,916 @@
+{
+  "purpose": "Exact private upload inventory; inventory itself excluded to avoid self-reference.",
+  "checkpoint": "033",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "42679ec76640939747eb42dc6dddfb6b5884b2b6fba4e1b3a828469ef3fe0ea9",
+      "bytes": 72
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/AffineCubeAtom.lean",
+      "sha256": "1194a9e5595b909edc0ab22fab531edb449576a6de32730806222d09e71e48b1",
+      "bytes": 4152
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/AffineCubeColumns.lean",
+      "sha256": "b67244801a1d648345cd5f2ea7657ac0bd6ab65172c385e490b292c42a6871f2",
+      "bytes": 4082
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/AffineCubeProbability.lean",
+      "sha256": "bdf5fe6daf725195e23253865f18f0c436a66ca0003ec5d01ac4cece1b433f43",
+      "bytes": 3581
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/AffineFibers.lean",
+      "sha256": "6700b6bd63d566855d035d21bf9aee79dcd864a9bb39d83105d1e73960ccb9f1",
+      "bytes": 6099
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/AsymptoticBlockTheorem.lean",
+      "sha256": "3f39ccb8a4a7a02bff47c5311d74ec18c45cba68c62d5bc20677a0c615021cb0",
+      "bytes": 2030
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/AsymptoticMovementTheorem.lean",
+      "sha256": "a5ba212fdaa8294c4d3d16940423207b874ac7567d3a87b2acc9d23216ad6aff",
+      "bytes": 1984
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BasicAlgebra.lean",
+      "sha256": "848f7b18187bc02ec648dce06cf9701667c1ae8fceda1d14ead0c353bf7fafa5",
+      "bytes": 1759
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BlockBoundArithmetic.lean",
+      "sha256": "8a8775db41aff223eb86f063a053f367e457d4278adf5f280b38ea2c5846d57a",
+      "bytes": 3100
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BlockExponentialArithmetic.lean",
+      "sha256": "72cd0afd01c2dc246c6d1cefaf94c2de9a3fda3e33dc09639ab16db7de46e737",
+      "bytes": 8521
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BorderMatrix.lean",
+      "sha256": "76f7017db35007fd7b98efc5379169901f887d129f8c0fe170c0a5ff124466b9",
+      "bytes": 3192
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundArithmetic.lean",
+      "sha256": "169a64fe4a6a445fd5af1e95f4194754b1d37eedbf8f59a718c01af8bc5eb262",
+      "bytes": 1118
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundaryCubeCanonical.lean",
+      "sha256": "668e5f6c79b55ad4d189fa299bafcf14bbb2ae9cb6112d81cedfb33586edad74",
+      "bytes": 3990
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundaryDescentBudget.lean",
+      "sha256": "9941d79f0249f7e7771e8eae03b81f831652970449dbccdcc48e6381ceaefa37",
+      "bytes": 1131
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundaryDescriptorGood.lean",
+      "sha256": "20070abca764645375ecb3deaf74c884a14d2cad0f6b5f7e182ea77871bddabf",
+      "bytes": 3131
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundaryDescriptorWitnesses.lean",
+      "sha256": "cfe7756c80f6adc73fc76b65bf1f0f1f0c893bef8f176d5007c058e522e924ae",
+      "bytes": 4098
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundaryDescriptors.lean",
+      "sha256": "27d34934fe887c1fd49bea3599017a74983a72ff4091a3a0d81e1a38ad5905c7",
+      "bytes": 3566
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundaryEnlargement.lean",
+      "sha256": "d8ed6b722a1ee6678b3741a534282f32e2d4371221d8609744c10e014bb64878",
+      "bytes": 6146
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundaryIntegerData.lean",
+      "sha256": "ea04d6e4fbab92ec520768d40cadf6a7de02f63de6985c97bd02a160a3bd8320",
+      "bytes": 3066
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundaryKrylov.lean",
+      "sha256": "10538c998d8ac168c70665b8b790bd1ec6a0e92f3e19e737012a50015177eae4",
+      "bytes": 2731
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundaryLocalization.lean",
+      "sha256": "454b40aba21d239e5407413ae06eaefcaffae8c68acfba6143b62645a53d6b8e",
+      "bytes": 3337
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundaryRealKrylov.lean",
+      "sha256": "8b62e709cd87fdb0e0c1ab5fc65d7e74ff861f12bf38c1c547835c68a28539f9",
+      "bytes": 4216
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/BoundaryStateTermination.lean",
+      "sha256": "d01f793f53a8f9e2b834f74254613ec87bfd7a88d99367ad30301f0f418bddd2",
+      "bytes": 1515
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CanonicalColumnAlgebra.lean",
+      "sha256": "dafc2468d1d203123cf52593fc647327ea7054785404f80285449d16bc7fc5e4",
+      "bytes": 3156
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CanonicalTarget.lean",
+      "sha256": "213e0e32bf5ce7f06718f8b22360dcc4465ad3e2098d71581fb8e2089552c174",
+      "bytes": 5921
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CommutatorCapture.lean",
+      "sha256": "bb6fd5f565972622dadb96e2a1449a111099544b748cc739bd38fc5376594ef3",
+      "bytes": 1178
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CompatibleCover.lean",
+      "sha256": "08e19efb877fd0689c9b6cb54537368dbde127b72b15ed7418b8d85d9710c46a",
+      "bytes": 7088
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CompatibleCoverArithmetic.lean",
+      "sha256": "573ea44c2bd3e70cc77d1e0a6fc345bd57a32bdaa8faebce86e7bb4e42fb6f8d",
+      "bytes": 7041
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CompatibleCoverCounting.lean",
+      "sha256": "cb2c00497a2610272d2e0e7b4fa75964088d4956e46c530fbd9920e278236ec3",
+      "bytes": 12938
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CompatibleCoverExtraction.lean",
+      "sha256": "4e61e8bae86f74dfb5b855f869e39fe72f36a4c4db990c8f5a4400d381bcc312",
+      "bytes": 7875
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CompatibleCoverProbability.lean",
+      "sha256": "0d6ebaf5c10b94646e434dcf10175a21d0a5e45bb120791ced67905a575a8369",
+      "bytes": 8780
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/ConditionalProduct.lean",
+      "sha256": "bbf9e7570981837379afadded665d448114ef634ef29361761d769c61d4cdc82",
+      "bytes": 1449
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CoordinateAlgebra.lean",
+      "sha256": "88fa5d2f7d513952c1c9e4961164b8e8c68705608e863543a4def1bd921fcb38",
+      "bytes": 2071
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CoordinateExtension.lean",
+      "sha256": "0d3c331a1f87579cf7bef7a91a63835271c1e783b10720c20480162c07d3803e",
+      "bytes": 2044
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CoordinatePivots.lean",
+      "sha256": "78a44bc605db64563b249ba638a74b613d97662702e2635a498b24a9f2ffd98a",
+      "bytes": 2709
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/CorankPaths.lean",
+      "sha256": "362771c468721515ee5c990abb722e2fddd4c0d8114d14fb13ea3da267198337",
+      "bytes": 2692
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/DescriptorColumnSpace.lean",
+      "sha256": "11e273f35fca4e3fae050fd86069f146979d7ed2b70a1419017eaf9dfc822f9b",
+      "bytes": 8382
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/DescriptorReindex.lean",
+      "sha256": "ee103dc0a03a873ffd59c0d49d69bc3a719f2bf588931732273f3db0696edea5",
+      "bytes": 3704
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/DescriptorRowTransport.lean",
+      "sha256": "d695fd121b4c954718f27a0a05225d18eacf5bdd999cddae752a4f0a63ab38a1",
+      "bytes": 3100
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/DotSubspaces.lean",
+      "sha256": "fa4e246819479765cb2f76734ffc397b5d9f26f7a34a3e856ec62390e1ed7e00",
+      "bytes": 959
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/F3FourierAtoms.lean",
+      "sha256": "b428ecad630195af42404a3f62a30a94dd7deed2e2f3072899872790de566f07",
+      "bytes": 9222
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/F3QuadraticAtom.lean",
+      "sha256": "8f296157786cb00bd1cc050eabe413a36e894e4f0434be7cef4766f8cf5a1f6f",
+      "bytes": 2349
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FieldExtensionRank.lean",
+      "sha256": "c4559a56eb0d24061c88a302ec7956f27821ee0aeeaac80a4b3f53a072f97fb4",
+      "bytes": 2276
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FieldGraphAlgebra.lean",
+      "sha256": "89c94b339df51c2a472c58d2aa5a04ea4310f3e0ee3cde445b0d699dcf9090ad",
+      "bytes": 3513
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FieldGraphMatrix.lean",
+      "sha256": "5ab25c128b027d8feb55cb1f86fab445ed515a346b5f3537106f7386ba21a63d",
+      "bytes": 4549
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FiniteBlockTheorem.lean",
+      "sha256": "53b35e2ed8c7f006117002d2417da12662988e3815169a3d795ba42dc7066dfe",
+      "bytes": 3827
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FiniteBounds.lean",
+      "sha256": "78538834096a6e35062b02c6b2b733ff4346faa1b1192bbc0d05a1507d822780",
+      "bytes": 2976
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FiniteDescriptorCount.lean",
+      "sha256": "4c51d72c8909218e92dcd25cf2b7fc87a7c36a87761fa6a61bd1e6475ed590bb",
+      "bytes": 8442
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FiniteMovementTheorem.lean",
+      "sha256": "d214d803de5979ad673074193da76f4e3914610592ea71d56982003ece7b87e5",
+      "bytes": 2872
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FiniteOrbitInvariant.lean",
+      "sha256": "24c8b93c5bcdd2dc4cc67e35a487f8245d93437bf87d683d9f5abb772e398ee3",
+      "bytes": 3445
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FiniteProbability.lean",
+      "sha256": "73892cf0cc66177379d11e97ab7715cf52b49ae147f43fb3461ca81f26e7fce1",
+      "bytes": 3489
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FiniteProjectors.lean",
+      "sha256": "a6e0d4a346dac5687c1c393843b3686daf911747aad7148c41d3692618ba9629",
+      "bytes": 5494
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FiniteRankPartition.lean",
+      "sha256": "ec09feee7f33b5d9b254475a9f340cdcd8eaf039717ce3de33812c20e86e77b9",
+      "bytes": 15989
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FixedPartitionProbability.lean",
+      "sha256": "e98bd3b035e6a8d279f0e3a586f96f6576499c3491a3dcdd8cee663c2e902091",
+      "bytes": 11475
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/FourPoint.lean",
+      "sha256": "6b77e09dada92c8cf85bec5d44ab3660b1f1086d9b4740ec14d613948ffad203",
+      "bytes": 2865
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/GeometricBlockBound.lean",
+      "sha256": "40603867c0a3819fe02936156f40ea901c08afa397ae8c35cbd23e3f84bf14d4",
+      "bytes": 3004
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/GlobalBoundaryDescent.lean",
+      "sha256": "6bb3d99f9b7de9a8c536f97cd9eca520c8ce6364e3e8ece9172bc948b44ac303",
+      "bytes": 3821
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/GramAtoms.lean",
+      "sha256": "5a3fd79c8300060eb03bbf0e6e5cc7bab142e8a97408a98824fb519c317f1dd6",
+      "bytes": 4385
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/GraphBoundaryDescriptor.lean",
+      "sha256": "28d9dbe06d27a800fb52f91049c8b327416aad681abcf629380578d185a82524",
+      "bytes": 4518
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/GraphBoundaryDescriptorStep.lean",
+      "sha256": "9136b97e3596389a7c9e7e4f47bffc9e55c7f00af57568e1fb43405c4dd6631f",
+      "bytes": 6828
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/GraphCorankPath.lean",
+      "sha256": "38e3c7d690ad339b1f611eb961e03f9d0d66697d475a2924d883bf3e21ef80b0",
+      "bytes": 4081
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/GraphRelabeling.lean",
+      "sha256": "7dc671e38d59be1c61e068e4ddafe7375aab95817ab5c9b4cc8fec61d68d027e",
+      "bytes": 3205
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/GraphSeedPolynomials.lean",
+      "sha256": "15a06ec5bf3ade51119bf3ecedd2fc58f16a1ea093bc8da27a8176997889c994",
+      "bytes": 2388
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/GraphStarSplit.lean",
+      "sha256": "a55b9a49cee78a6519b2dba0ae15def392913573d2a3a92591a40818a3010be1",
+      "bytes": 2710
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/GraphTrainingTesting.lean",
+      "sha256": "83d61549208e2bba9729491c7fd339355437e162ec58c939841e981bb882c6c2",
+      "bytes": 4312
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/HouseholderMovement.lean",
+      "sha256": "b41ba4bf48552b25c2a1bc19ecdc25c2bbd470d2754bc8182cf9e2479d79874d",
+      "bytes": 4468
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/HouseholderSameTarget.lean",
+      "sha256": "8d1f60db05f70a3d2c823b171b9c45cf0e1bbf20a48a0200378583f1c705905c",
+      "bytes": 2528
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/IndependentFamilies.lean",
+      "sha256": "dbbb33ba0d791548c5f83db8c8d9b44e42d80f9850be895bd48357ac38d64fea",
+      "bytes": 1920
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/InducedGraphCuts.lean",
+      "sha256": "9cea4a5912a854c5066b2703f05b3fac97984800ec4817d886dfdf85db542165",
+      "bytes": 4416
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/InitialBoundaryDescriptor.lean",
+      "sha256": "1681475a6a2fcf15596b4e6fb9879bbe9fedfc98c3f4adc9614b70b7eb096611",
+      "bytes": 1539
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/InitialMovementBoundary.lean",
+      "sha256": "d03b8c648268f48a0a3377884cc137b3506f4c7a4396eca894a7e8361b79eef1",
+      "bytes": 3754
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/IntegerBoundaryControlled.lean",
+      "sha256": "74f36c162b536ad5e7c76e02e096e10addafb4e9125bd0fef950a66b475c62a3",
+      "bytes": 2426
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/IntegerColumnLift.lean",
+      "sha256": "6b78212ef76a78b3d6840a3e553b57a2de091f6d55853219d0a3dc4d2f28ef3f",
+      "bytes": 2947
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/IntegerLift.lean",
+      "sha256": "0053d9995d4de36ac7cca1874bdf12db62c34fd28602bf222b630ba50e8456fc",
+      "bytes": 4922
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/IntegralDescriptorBridge.lean",
+      "sha256": "986aa306113378dcdde10b552c8de027c0dbd2cc416a59afe0cf74a9336f55cc",
+      "bytes": 6093
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/IntegralDescriptorComplement.lean",
+      "sha256": "22ff9dbfa4b2099ba38828296f3ef7b5bd9a2fdc448e7d5f11332c9f0e4ec69c",
+      "bytes": 3414
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/IntegralDescriptorConstruction.lean",
+      "sha256": "819530630a72a689181905701d1a1204f60c0c3845256e496764b82a6e2cb725",
+      "bytes": 6787
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/IntegralDescriptorLattice.lean",
+      "sha256": "3e36e9f55db83c461ee4647a2796646cb46e91c35c3a33b5c8724505f9674e15",
+      "bytes": 6552
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/IntegralDescriptorRegular.lean",
+      "sha256": "e3922b27baa56009b6208196239a3984db0c75dad0922205d80a463339d49f83",
+      "bytes": 8419
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/IntegralDescriptorSpan.lean",
+      "sha256": "98b023e54e020a59d54570865ff4f14b7cf4f015ea5abb1d69a7fbe20098a7d7",
+      "bytes": 4705
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/KernelDimensions.lean",
+      "sha256": "fb05e16a064b2da038a0d8144b73e3ce2de84a33b3457d02e5feed47349cca1b",
+      "bytes": 2541
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/KrylovColumns.lean",
+      "sha256": "4fd80587ceaa18d3ec0fb8b0cfecb3aad99c34456e1d3ff926c4569a2eeccc19",
+      "bytes": 4452
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/KrylovControlledSpace.lean",
+      "sha256": "e60078e73372814729dcbf521dacd4a85042591005e5cb6b023583b6a7cf6ec7",
+      "bytes": 6457
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/KrylovProbability.lean",
+      "sha256": "5b527f3dc14fdb74bf4b59dcc12eebf66b4fd0dda73940a31cf326618f412f45",
+      "bytes": 3400
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/KrylovReindex.lean",
+      "sha256": "e4882f335869fea141d38b82c4ead9004fad405243768b64cc5447f4230ce959",
+      "bytes": 2662
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/LastGraphCoordinates.lean",
+      "sha256": "a1e67225993656d1f6ed0d7f511b61ab51eac9baf00d6c91714ab3ad0f21c0e1",
+      "bytes": 3023
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/LastMarkProbability.lean",
+      "sha256": "435a66e0379c006ab6cd973a009cd9647b55921fb8fcdb682691168a8788dab2",
+      "bytes": 3974
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/LinearBasePacking.lean",
+      "sha256": "a95e0ee7aef8fc4fcc8ba96142eca57174431b843256ecb7f243221f9f0089c1",
+      "bytes": 7829
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/LocalizedCrossBlock.lean",
+      "sha256": "374813ea9a02f1356eda5793b8de6d5327174ff4b7b65e0311b1d457161248d9",
+      "bytes": 3111
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/LocalizedOrthogonal.lean",
+      "sha256": "115c5fc373233c5b4041d32823f746c6a7aacf0cd1d40e6c2ceb13fd34a6720d",
+      "bytes": 5452
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MarkedCorankProbability.lean",
+      "sha256": "26d16a2deba2bd0fbb51f32928ae250320e08f59db004270c9cfb4642c2d2097",
+      "bytes": 3967
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MarkedPolynomialProbability.lean",
+      "sha256": "27d0203f94a0246b1216758364d47cfa0ab984671eb25d3c119e8f5008efb0ed",
+      "bytes": 2449
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MarkedStarPolynomials.lean",
+      "sha256": "9a64a9a193bff6eb3afb9371e45de15e9934647e4fe5c5744891baa678a13e2c",
+      "bytes": 2700
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MarkedStarProbability.lean",
+      "sha256": "d6b6879b53ed35e12eed81c1d6b3b69765121c1532f79fb8987fb2c6c49f851e",
+      "bytes": 4011
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MarkedStarRelation.lean",
+      "sha256": "a6b09ad8256cc9d6b8a2e13a801af38f44263fcfec5dd2e7a4b7e937580c657b",
+      "bytes": 3274
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/Model.lean",
+      "sha256": "16a472380ff04cbdc054d586a77295904d19e6bc14f3d301ad18ad9967daf230",
+      "bytes": 4535
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/ModelLemmas.lean",
+      "sha256": "07a8f5a01d653ab399912ccc4846c5294c0d102a5e8bc3a2ee2e126647ec4edd",
+      "bytes": 4374
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MonicAnnihilator.lean",
+      "sha256": "bb8f8f9836cac44dc52fb3e6c6c5d519772f0081c48569c4de7597ff4e45f7eb",
+      "bytes": 1465
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MovementAsymptoticBounds.lean",
+      "sha256": "469904b7bd6280b3406826e8f6380d5cd8b08935aeed3b4abe9db53d2917893c",
+      "bytes": 16071
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MovementAsymptoticParameters.lean",
+      "sha256": "f5289e0a1b8e9fffd0382d71ee0844a2e335ac01266f29797b848783c0b6629c",
+      "bytes": 20129
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MovementCapture.lean",
+      "sha256": "05cf50622808d3210bb095f14313ab612cb7471b334e2f77d5fbc0b6ca445991",
+      "bytes": 4455
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MovementExceptionalProbability.lean",
+      "sha256": "4e0e2aa8e8830c4b2ecf41eba24640808eb916e185a5d8828d02e0a6c855cb9d",
+      "bytes": 2283
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MovementFiniteNumerics.lean",
+      "sha256": "e7231c27cf34f2b312eb4b3161f994708b9352fd4d3e165962188b36827985d0",
+      "bytes": 15462
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MovementImage.lean",
+      "sha256": "b6a259e3662dc16086b034e0417d32af68a0600cd78ec240f7777b6dba92333c",
+      "bytes": 1384
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MovementNormality.lean",
+      "sha256": "891df57714522d06fe7e6895f1ac530e56ab3c51f5117a8ebdec3b80575ae878",
+      "bytes": 2282
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/MovementTransport.lean",
+      "sha256": "07e9fec68f885e6d96e33385f8bb3485310386a2ecc8c3bf73d9b121285e5869",
+      "bytes": 2541
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/NecessaryNorms.lean",
+      "sha256": "44c74d8cb6ccf5bb942d5e293aa0320f09bc0460b328e5ff6dd29275d154fd9b",
+      "bytes": 7146
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/NoncoordinateComponents.lean",
+      "sha256": "e7c26b898e4a2d46cf4fdc197523bbdcd536e8499bbab5569b4e1f0606aa60e1",
+      "bytes": 6390
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/OneCoordinateFiber.lean",
+      "sha256": "bb229f34a6968842d0037f035a988c815394d1f61bd2552f8dbf1f9f1ab11446",
+      "bytes": 3874
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/OrdinaryFieldData.lean",
+      "sha256": "b4308302475cdae360b54a0183ea1d4f1dad66f4d990aa5dc9c7561661d31db8",
+      "bytes": 2727
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/OriginalEdgeCuts.lean",
+      "sha256": "1ea28b877b67e564a73a11aff57836e6abe424a3751d21d8518a6bc83b57de9e",
+      "bytes": 5681
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/OrthogonalAlgebra.lean",
+      "sha256": "34142034b774f0aae51c574011e0f2df85cd6f1a2c0853b2be2e40a1092591dd",
+      "bytes": 1647
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PackedActionProbability.lean",
+      "sha256": "ce78302784acafec05bc5c6b701eaf9ea569caa3bc2992c3e1eef7148276cb86",
+      "bytes": 8687
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PackedFourierBound.lean",
+      "sha256": "1326d5846da4360ac85e2de1ddd7cac60c91910763ddd21692cb967f3f5f868e",
+      "bytes": 5524
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PartitionCounting.lean",
+      "sha256": "7d50a1dbfdb856884330a1932d6d9060c08bc9e9c6587cb74fa1461389428fff",
+      "bytes": 5546
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PartitionCuts.lean",
+      "sha256": "74ebd53cba19940b6d2c77c7849d23d3e0c48e7f3071d5e0fe35684578d17a6b",
+      "bytes": 4325
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PermutationAlgebra.lean",
+      "sha256": "50cbd78e197ff38ee3a4a631652888587d79efcf76b3114458c384e518ef9512",
+      "bytes": 4082
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PhysicalNormalization.lean",
+      "sha256": "bd0bbc1014036803847d402961a5352a5dfad426b49c3b8fd5b53d132c4a9bea",
+      "bytes": 4338
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PolynomialKernel.lean",
+      "sha256": "8e51a1d363b8cfcea94a87468b8e78ec26f314d688373371356ea019660bcd9a",
+      "bytes": 1862
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PolynomialKernelProbability.lean",
+      "sha256": "d75f6cf440e3d9f3efa5029cd998308667e98806298a80c5984e41e759f7af42",
+      "bytes": 3765
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PolynomialPencilKernel.lean",
+      "sha256": "a5c07b28de433ff864f8be6ed7820ee4fa307e45a1f03d11bb265aacc503cfed",
+      "bytes": 8199
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PolynomialRootFamily.lean",
+      "sha256": "dd4861abcf3029c7df743ad5691c2a23641bdf7f0c69ea96bbe0273319aec568",
+      "bytes": 2687
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PolynomialSeedFibers.lean",
+      "sha256": "4fbee80b015cd7907e4f1558b78d6910080424c3bae6eea2232e0cc520272288",
+      "bytes": 3014
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/PolynomialSeedUnion.lean",
+      "sha256": "2c7431a7cd7385a680cbd7b72a5cdc1e3482d6dcf5f512db147863bcfe9c516a",
+      "bytes": 3853
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/ProductFibers.lean",
+      "sha256": "0c37fd785326edca8e892b0ef47ba737dbd4ac881ff6d0b44a56567c99e1c77e",
+      "bytes": 5319
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/ProjectedKrylovCapture.lean",
+      "sha256": "d8736959d98ec5ed61e53c508f5870be04f91fa056147a31e470ede717c83e9e",
+      "bytes": 5453
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/ProjectedMovementRanks.lean",
+      "sha256": "9f27a1b13a4156c179cc2284b2dd9c21c9e219dc5ede606d17d9369ddbf238cb",
+      "bytes": 3857
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/ProjectedTransport.lean",
+      "sha256": "15afee61e22dc035d715be77cd55468faf8af71c354c6eaf8a4a5ca5a6a45053",
+      "bytes": 5661
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/ProjectorTesting.lean",
+      "sha256": "5ab30e9b30ef0c0e5bee2b38051455f04a40af07b5ab02eb181b09632bf64d97",
+      "bytes": 4882
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/QuadraticAlgebra.lean",
+      "sha256": "0dea9837bbf04311cd5e8ad5bf2ef74ae841916461a043c1e9cfa12d6dbc2578",
+      "bytes": 3513
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledCompanion.lean",
+      "sha256": "e6337554788194e0d89693771f427be4b4228e315554dca5a3ea742e19ea90d1",
+      "bytes": 3259
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledDescent.lean",
+      "sha256": "dbecebd0effbfb16c858597a353d3e7f836ffbdb06347ea92f8344b09ed056b7",
+      "bytes": 3966
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledDisjoint.lean",
+      "sha256": "d810772dbb0779d9e9e69c23bba4550e1695afb391f563118f9c2eac80d23f87",
+      "bytes": 4681
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledEmbedded.lean",
+      "sha256": "3aee1056bba03974d803a2102081bbb3ff828ec8fe92c1f439838055bc58a51f",
+      "bytes": 9128
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledFilter.lean",
+      "sha256": "4e7b0bd8a9ff412b1dd6494035c49393bc99f974b6c4be6f3081d0b853318c44",
+      "bytes": 3250
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledFilterDescent.lean",
+      "sha256": "b60ad3f5348b8c073a91056c89a47a1ade2b63bc79ea6d740fdd584e8f3e8141",
+      "bytes": 5912
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledInput.lean",
+      "sha256": "8e7da346a54cb9548f1cd6b4d85f369683a0e2467317122dec44d8785b116e45",
+      "bytes": 3732
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledRealization.lean",
+      "sha256": "ffdc6de62c0a564dfdecc17ed8388300fcab7299102d497cc6df4ba4149bbbd5",
+      "bytes": 9585
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledRetraction.lean",
+      "sha256": "61b41738de1fe38824252be99e43ae45600798ed45932b27db8767887a4386cd",
+      "bytes": 6689
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledSpace.lean",
+      "sha256": "e7ea05c328a89b61d41991030b63a702cae25e02a232889d23884631d87a94cc",
+      "bytes": 4865
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledSpan.lean",
+      "sha256": "67ef91cf48e80e01067bc50d17e898f3a664284db71910b0dc5b32cc73e57748",
+      "bytes": 8987
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RationalControlledTrajectory.lean",
+      "sha256": "d7db2da8451541c823664c999f2470b514c3d4c598a7fb83536b9717bc7b054c",
+      "bytes": 4429
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RealQuadraticAtom.lean",
+      "sha256": "0107909664d67d34bcc76813a38850b5cc069232658b25d18ccf2f0c7e32241e",
+      "bytes": 5764
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RectangularDuality.lean",
+      "sha256": "a9f8ae408d104a96360a2eb598ba480db71e38e37ddf2ff26308f3910866e1c6",
+      "bytes": 1829
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RegularDescriptor.lean",
+      "sha256": "4e262602e92ef3412d8bb122099d9bba4e9bd35f906b4963194de13e22f085aa",
+      "bytes": 4137
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RegularDescriptorReduction.lean",
+      "sha256": "69cb79818aa5cebb30a9f272572c1a6ff2e8d654c8c772094499b53ce613699d",
+      "bytes": 17076
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/RestrictedBlocks.lean",
+      "sha256": "f629464ea698f2381f27f2130f64d309f8cdfbe68245b1bc215c4e5fa529626b",
+      "bytes": 2605
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/SetoidPartitions.lean",
+      "sha256": "421b5a8451850e251f340e849592d0666c76a55df3d6bc8efe45242c5d7064b7",
+      "bytes": 4344
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/SparseDeterminingBases.lean",
+      "sha256": "1652027a833db85c3eb55aa21527a461370dece34da86d06a5b2e15bce7cd324",
+      "bytes": 18184
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/SufficientBlockRange.lean",
+      "sha256": "c590486fb6281b5215f2bf4b707f3d82cdd177ba66690bb0f9a8dfdf634d76b3",
+      "bytes": 4231
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/SupportComponents.lean",
+      "sha256": "11cfad64d3d57e698bf2d876d25269ccd3ba68359543a6f3f5ac4a0a1df92b75",
+      "bytes": 2864
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/SymmetricBordering.lean",
+      "sha256": "8a98e1760e79a2448154d221fa1292eebc34424e1a580ecc7e2c134f878500d9",
+      "bytes": 7444
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/SymmetricCorank.lean",
+      "sha256": "223c47179b405c88dd906d99303cbdf4f637e32550c965eec5e903e6656167d9",
+      "bytes": 2717
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/SymmetricInvariantEigenvector.lean",
+      "sha256": "02ddf675d92113e6ef5f3abf927310fc8f8976be6ba3b9c920a55b5b849091f8",
+      "bytes": 2653
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/SymmetricSpace.lean",
+      "sha256": "9247f1a7a71b7bbff10d1206f4233356983dab598f74a1d0cf1fa265e935386e",
+      "bytes": 5006
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/TargetStatements.lean",
+      "sha256": "c57d184f2553989a65cc2abff80954f9ae2bb0b12007349b4fd9974d9c3abe81",
+      "bytes": 3623
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/TrainingSpan.lean",
+      "sha256": "59d899352fdd807f4596363395603109423a0034f18aef6c35dbf2c7a71a114b",
+      "bytes": 2915
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/TrainingTesting.lean",
+      "sha256": "26aa8e58d0d927a573734f895362863c9ece830309c7705e7cc69211ea6b3e53",
+      "bytes": 5847
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/TrivialBlocks.lean",
+      "sha256": "6a511f6c9bc5d9991389b9fa3e4a29ab848f447000800f00d94ebfe0682baabf",
+      "bytes": 3321
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/TwoCoordinateFiber.lean",
+      "sha256": "0ac47e08333ac3ba7f230516de9d7872db81837d9096ea359560b1e45a2e33f0",
+      "bytes": 5157
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/UniformAffineCube.lean",
+      "sha256": "45f49316be141b84ec06a2a7d4e327704a554740b52f6c4b152da12d5537dd35",
+      "bytes": 3735
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/UniformDescriptors.lean",
+      "sha256": "7d2729e4c348060dcf075ef05fd6e441511d759210fddbcc843de0116b214154",
+      "bytes": 3969
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity/UniformKrylov.lean",
+      "sha256": "d83a55266e2c0ca5a57c03091f202bd5dc308b2737a7d9639bfd74e0919eb55f",
+      "bytes": 4544
+    },
+    {
+      "path": "AdaptiveOrthogonalRigidity.lean",
+      "sha256": "d0ccce80edf1af55b386cd809a576fe28f411f27f19778af92457b004b58701b",
+      "bytes": 7369
+    },
+    {
+      "path": "README.md",
+      "sha256": "0a6650d3f96629a5c8e7c1eef24b79f2fd6c29b80fb1c265e6d0007c0263c34b",
+      "bytes": 2551
+    },
+    {
+      "path": "docs/PROOF_COVERAGE.md",
+      "sha256": "7f3622087afe3a4f9fc0d93db2e0505f311479d8276ecfc9b28106723e2c881c",
+      "bytes": 5044
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "sha256": "2303a30f355b122e486a579e764cd5d96664c53884a95f6ae6031a54d336316a",
+      "bytes": 3025
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "ee9e4374dad127070037edaeb3410432480a7889c9d2ca7e1f830231cbe21ca2",
+      "bytes": 3179
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "e6aae385e472bd338a7a38917e5ef2615fe3a652b55a3185e6e0cc87f3350293",
+      "bytes": 294
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "bytes": 25
+    },
+    {
+      "path": "scripts/reproduce.sh",
+      "sha256": "7867c84401846a90a7c352a4c792f6dccf395ae93c408fda3453ed2b319b6ba1",
+      "bytes": 1376
+    },
+    {
+      "path": "scripts/verify_dependencies.py",
+      "sha256": "bd5f001f7922867701b365c0efef8c9f10bf6cfeb5413498b0ec106527bad207",
+      "bytes": 922
+    },
+    {
+      "path": "scripts/verify_snapshot.py",
+      "sha256": "56a07a78191ced7b1fa1a9bad53cdf32dccfb84c9acc253742cbfa37a8060542",
+      "bytes": 1142
+    },
+    {
+      "path": "verification/EndpointAxioms.lean",
+      "sha256": "5ee375a73c073f5cc6f3441d5967956dd52667f5ac4bfce4141f81a0b9cacb58",
+      "bytes": 352
+    },
+    {
+      "path": "verification/STATUS.json",
+      "sha256": "01628db1dd9972ffcad0ba0e9e16b4002996bd29e51df32b46a060b34b6873e1",
+      "bytes": 945
+    },
+    {
+      "path": "verification/local-evidence/build-240.log",
+      "sha256": "f6d544b7e38923abfe718e601aad911368c1eb54b50dc1d2e701026d65a8a4b3",
+      "bytes": 7996
+    },
+    {
+      "path": "verification/local-evidence/dependency-identities-033.log",
+      "sha256": "1001b557fb9a2d756c1612146cb1c234bb21b903a77dcb3f9bf2e4b5e870f4b0",
+      "bytes": 659
+    },
+    {
+      "path": "verification/local-evidence/endpoint-axioms-033.log",
+      "sha256": "a9f13407f12fd96ea0dd6ace5dc84fcb4014a3ec226e4b714f595b2af568cbc1",
+      "bytes": 553
+    },
+    {
+      "path": "verification/local-evidence/reproduction-script-033.log",
+      "sha256": "d5c97119907d8a49e2f8ebb5e26c11dd5cebcb6d6f93e106a8005edab96f1cfa",
+      "bytes": 8774
+    },
+    {
+      "path": "verification/local-evidence/targets-033.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/source-lock.json",
+      "sha256": "d492fd1f10165e4d9bc4ddafad7144c8b98f9d80bd699166fc29c508d4d51f5e",
+      "bytes": 2420
+    },
+    {
+      "path": "verification/source-manifest.json",
+      "sha256": "afed2e414a8c8bc755a86ee5e5d30953a76173b0b46e887beb771173fe9b8dc7",
+      "bytes": 28524
+    }
+  ]
+}

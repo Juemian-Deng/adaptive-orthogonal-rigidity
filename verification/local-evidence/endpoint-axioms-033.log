@@ -1,0 +1,5 @@
+'AdaptiveOrthogonalRigidity.finite_movement_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AdaptiveOrthogonalRigidity.asymptotic_movement_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AdaptiveOrthogonalRigidity.finite_block_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AdaptiveOrthogonalRigidity.asymptotic_block_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AdaptiveOrthogonalRigidity.sufficient_block_range' depends on axioms: [propext, Classical.choice, Quot.sound]

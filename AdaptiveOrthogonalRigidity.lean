@@ -1,0 +1,258 @@
+import AdaptiveOrthogonalRigidity.Model
+import AdaptiveOrthogonalRigidity.ModelLemmas
+import AdaptiveOrthogonalRigidity.FiniteBounds
+import AdaptiveOrthogonalRigidity.BasicAlgebra
+import AdaptiveOrthogonalRigidity.FourPoint
+import AdaptiveOrthogonalRigidity.BoundArithmetic
+
+import AdaptiveOrthogonalRigidity.OrthogonalAlgebra
+
+import AdaptiveOrthogonalRigidity.SupportComponents
+
+import AdaptiveOrthogonalRigidity.PermutationAlgebra
+
+import AdaptiveOrthogonalRigidity.PhysicalNormalization
+
+import AdaptiveOrthogonalRigidity.TrivialBlocks
+
+import AdaptiveOrthogonalRigidity.NoncoordinateComponents
+
+import AdaptiveOrthogonalRigidity.FiniteProbability
+
+import AdaptiveOrthogonalRigidity.TwoCoordinateFiber
+
+import AdaptiveOrthogonalRigidity.OneCoordinateFiber
+
+import AdaptiveOrthogonalRigidity.QuadraticAlgebra
+
+import AdaptiveOrthogonalRigidity.F3QuadraticAtom
+
+import AdaptiveOrthogonalRigidity.RealQuadraticAtom
+
+import AdaptiveOrthogonalRigidity.ProductFibers
+
+import AdaptiveOrthogonalRigidity.GramAtoms
+
+import AdaptiveOrthogonalRigidity.RestrictedBlocks
+
+import AdaptiveOrthogonalRigidity.NecessaryNorms
+
+import AdaptiveOrthogonalRigidity.SymmetricSpace
+
+import AdaptiveOrthogonalRigidity.IndependentFamilies
+
+import AdaptiveOrthogonalRigidity.TrainingSpan
+
+import AdaptiveOrthogonalRigidity.IntegerLift
+
+import AdaptiveOrthogonalRigidity.FiniteProjectors
+
+import AdaptiveOrthogonalRigidity.ProjectorTesting
+
+import AdaptiveOrthogonalRigidity.TrainingTesting
+
+import AdaptiveOrthogonalRigidity.OriginalEdgeCuts
+
+import AdaptiveOrthogonalRigidity.GraphTrainingTesting
+
+import AdaptiveOrthogonalRigidity.PartitionCounting
+
+import AdaptiveOrthogonalRigidity.SetoidPartitions
+
+import AdaptiveOrthogonalRigidity.BlockBoundArithmetic
+
+import AdaptiveOrthogonalRigidity.PartitionCuts
+
+import AdaptiveOrthogonalRigidity.FixedPartitionProbability
+
+import AdaptiveOrthogonalRigidity.FiniteBlockTheorem
+
+import AdaptiveOrthogonalRigidity.GeometricBlockBound
+
+import AdaptiveOrthogonalRigidity.BlockExponentialArithmetic
+
+import AdaptiveOrthogonalRigidity.AsymptoticBlockTheorem
+
+import AdaptiveOrthogonalRigidity.SufficientBlockRange
+
+import AdaptiveOrthogonalRigidity.AffineCubeAtom
+
+import AdaptiveOrthogonalRigidity.AffineCubeProbability
+
+import AdaptiveOrthogonalRigidity.AffineCubeColumns
+
+import AdaptiveOrthogonalRigidity.UniformAffineCube
+
+import AdaptiveOrthogonalRigidity.CoordinatePivots
+
+import AdaptiveOrthogonalRigidity.AffineFibers
+
+import AdaptiveOrthogonalRigidity.KernelDimensions
+
+import AdaptiveOrthogonalRigidity.PolynomialKernel
+
+import AdaptiveOrthogonalRigidity.FieldExtensionRank
+
+import AdaptiveOrthogonalRigidity.SymmetricBordering
+
+import AdaptiveOrthogonalRigidity.CorankPaths
+
+import AdaptiveOrthogonalRigidity.BorderMatrix
+
+import AdaptiveOrthogonalRigidity.ConditionalProduct
+import AdaptiveOrthogonalRigidity.GraphStarSplit
+
+import AdaptiveOrthogonalRigidity.FieldGraphMatrix
+
+import AdaptiveOrthogonalRigidity.GraphCorankPath
+
+import AdaptiveOrthogonalRigidity.MarkedCorankProbability
+
+import AdaptiveOrthogonalRigidity.SymmetricCorank
+
+import AdaptiveOrthogonalRigidity.FieldGraphAlgebra
+
+import AdaptiveOrthogonalRigidity.PolynomialRootFamily
+
+import AdaptiveOrthogonalRigidity.PolynomialKernelProbability
+
+import AdaptiveOrthogonalRigidity.PolynomialSeedFibers
+
+import AdaptiveOrthogonalRigidity.PolynomialSeedUnion
+
+import AdaptiveOrthogonalRigidity.GraphSeedPolynomials
+
+import AdaptiveOrthogonalRigidity.MarkedStarPolynomials
+
+import AdaptiveOrthogonalRigidity.MarkedStarRelation
+
+import AdaptiveOrthogonalRigidity.MonicAnnihilator
+
+import AdaptiveOrthogonalRigidity.MarkedStarProbability
+
+import AdaptiveOrthogonalRigidity.LastGraphCoordinates
+
+import AdaptiveOrthogonalRigidity.LastMarkProbability
+
+import AdaptiveOrthogonalRigidity.GraphRelabeling
+
+import AdaptiveOrthogonalRigidity.MarkedPolynomialProbability
+
+import AdaptiveOrthogonalRigidity.KrylovColumns
+
+import AdaptiveOrthogonalRigidity.KrylovProbability
+
+import AdaptiveOrthogonalRigidity.IntegerColumnLift
+
+import AdaptiveOrthogonalRigidity.InducedGraphCuts
+
+import AdaptiveOrthogonalRigidity.BoundaryKrylov
+
+import AdaptiveOrthogonalRigidity.UniformKrylov
+
+import AdaptiveOrthogonalRigidity.BoundaryRealKrylov
+
+import AdaptiveOrthogonalRigidity.MovementNormality
+
+import AdaptiveOrthogonalRigidity.CoordinateExtension
+
+import AdaptiveOrthogonalRigidity.ProjectedMovementRanks
+
+import AdaptiveOrthogonalRigidity.RectangularDuality
+
+import AdaptiveOrthogonalRigidity.CoordinateAlgebra
+
+import AdaptiveOrthogonalRigidity.MovementTransport
+
+import AdaptiveOrthogonalRigidity.MovementImage
+
+import AdaptiveOrthogonalRigidity.ProjectedTransport
+
+import AdaptiveOrthogonalRigidity.HouseholderMovement
+
+import AdaptiveOrthogonalRigidity.LinearBasePacking
+
+import AdaptiveOrthogonalRigidity.MovementCapture
+
+import AdaptiveOrthogonalRigidity.RationalControlledDescent
+
+import AdaptiveOrthogonalRigidity.RationalControlledFilter
+
+import AdaptiveOrthogonalRigidity.KrylovControlledSpace
+
+import AdaptiveOrthogonalRigidity.SparseDeterminingBases
+
+import AdaptiveOrthogonalRigidity.RationalControlledRealization
+
+import AdaptiveOrthogonalRigidity.ProjectedKrylovCapture
+
+import AdaptiveOrthogonalRigidity.BoundaryLocalization
+
+import AdaptiveOrthogonalRigidity.LocalizedOrthogonal
+
+import AdaptiveOrthogonalRigidity.CanonicalColumnAlgebra
+
+import AdaptiveOrthogonalRigidity.FiniteDescriptorCount
+
+import AdaptiveOrthogonalRigidity.RationalControlledDisjoint
+
+import AdaptiveOrthogonalRigidity.RationalControlledFilterDescent
+
+import AdaptiveOrthogonalRigidity.RationalControlledInput
+
+import AdaptiveOrthogonalRigidity.RationalControlledRetraction
+
+import AdaptiveOrthogonalRigidity.LocalizedCrossBlock
+
+import AdaptiveOrthogonalRigidity.CanonicalTarget
+
+import AdaptiveOrthogonalRigidity.BoundaryDescriptors
+
+import AdaptiveOrthogonalRigidity.CompatibleCoverProbability
+import AdaptiveOrthogonalRigidity.RationalControlledEmbedded
+
+import AdaptiveOrthogonalRigidity.UniformDescriptors
+
+import AdaptiveOrthogonalRigidity.KrylovReindex
+
+import AdaptiveOrthogonalRigidity.RationalControlledSpace
+
+import AdaptiveOrthogonalRigidity.BoundaryCubeCanonical
+
+import AdaptiveOrthogonalRigidity.InitialMovementBoundary
+
+import AdaptiveOrthogonalRigidity.DescriptorReindex
+
+import AdaptiveOrthogonalRigidity.BoundaryIntegerData
+
+import AdaptiveOrthogonalRigidity.BoundaryDescriptorWitnesses
+
+import AdaptiveOrthogonalRigidity.BoundaryEnlargement
+
+import AdaptiveOrthogonalRigidity.MovementAsymptoticBounds
+import AdaptiveOrthogonalRigidity.IntegralDescriptorSpan
+
+import AdaptiveOrthogonalRigidity.BoundaryDescriptorGood
+
+import AdaptiveOrthogonalRigidity.DescriptorRowTransport
+
+import AdaptiveOrthogonalRigidity.OrdinaryFieldData
+
+import AdaptiveOrthogonalRigidity.RegularDescriptorReduction
+
+import AdaptiveOrthogonalRigidity.GraphBoundaryDescriptor
+
+import AdaptiveOrthogonalRigidity.IntegerBoundaryControlled
+import AdaptiveOrthogonalRigidity.PolynomialPencilKernel
+
+import AdaptiveOrthogonalRigidity.BoundaryDescentBudget
+
+import AdaptiveOrthogonalRigidity.BoundaryStateTermination
+import AdaptiveOrthogonalRigidity.IntegralDescriptorBridge
+
+import AdaptiveOrthogonalRigidity.InitialBoundaryDescriptor
+import AdaptiveOrthogonalRigidity.MovementExceptionalProbability
+
+import AdaptiveOrthogonalRigidity.GlobalBoundaryDescent
+
+import AdaptiveOrthogonalRigidity.AsymptoticMovementTheorem
